@@ -8,11 +8,26 @@ members = [
     "cmd/crates/soroban-test/tests/fixtures/test-wasms/*",
     "cmd/crates/soroban-test/tests/fixtures/hello",
     "cmd/crates/soroban-test/tests/fixtures/bye",
+    # Pi Coin Hyper-Tech Additions
+    "pi_coin_contract",
+    "pi_coin_oracle",
+    "pi_coin_governance",
+    "pi_coin_utils",
+    "scripts/hyper_ai_monitor",
+    "scripts/global_adoption_booster",
+    "scripts/pi_coin_api",
+    "scripts/pi_coin_dashboard",
+    "scripts/pi_coin_self_replicator",
+    "scripts/pi_coin_ultimate_enforcer",
+    "scripts/pi_coin_final_deployer",
 ]
 default-members = [
     "cmd/soroban-cli",
     "cmd/crates/soroban-spec-tools",
     "cmd/crates/soroban-test",
+    # Pi Coin Default
+    "pi_coin_contract",
+    "scripts/pi_coin_ultimate_enforcer",
 ]
 exclude = [
     "cmd/crates/soroban-test/tests/fixtures/hello",
@@ -21,7 +36,7 @@ exclude = [
 ]
 
 [workspace.package]
-version = "23.4.0"
+version = "23.4.0-pi-coin-1.0.0"  # Upgraded for Pi Coin
 rust-version = "1.89.0"
 
 # Dependencies located in this repo:
@@ -75,6 +90,16 @@ version = "23.0.1"
 [workspace.dependencies.soroban-rpc]
 package = "stellar-rpc-client"
 version = "23.2.1"
+
+# Pi Coin Hyper-Tech Additions
+[workspace.dependencies.stellar-sdk]
+version = "0.9"  # For Pi Coin integrations
+
+[workspace.dependencies.rocket]
+version = "0.5"  # For API and dashboard
+
+[workspace.dependencies.rand]
+version = "0.8"  # For AI simulations
 
 # Dependencies from elsewhere shared by crates:
 [workspace.dependencies]
@@ -135,3 +160,18 @@ lto = true
 inherits = "release"
 panic = "unwind"
 
+# Pi Coin Hyper-Tech Profiles
+[profile.pi-coin-release]
+inherits = "release"
+opt-level = 3
+debug = false
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"  # For autonomous scripts
+
+[profile.pi-coin-dev]
+inherits = "dev"
+opt-level = 0
+debug = true
+overflow-checks = true
