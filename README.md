@@ -3,7 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org/)
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
-[![Stale Issues / PRs](https://github.com/KOSASIH/stellar-pi-coin-sdk/actions/workflows/stale.yml/badge.svg)](https://github.com/KOSASIH/stellar-pi-coin-sdk/actions/workflows/stale.yml)
 
 **Ultimate Hyper-Tech SDK for Pi Coin Stablecoin on Stellar Blockchain**
 
