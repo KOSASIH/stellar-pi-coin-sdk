@@ -1,5 +1,7 @@
 # Stellar Pi Coin SDK - Singularity Nexus Level
 
+![Singularity Nexus](https://img.shields.io/badge/Level-Singularity%20Nexus-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+
 ## Overview
 
 **Stellar Pi Coin (PI)** is the ultimate hyper-tech stablecoin with symbol PI, designed for a multiversal ecosystem. Its fixed value is 1 PI = **$314,159** (inspired by the π constant), making it an absolute stablecoin impervious to market fluctuations. This SDK integrates the Stellar network (Soroban) with Pi Network, offering features such as:
