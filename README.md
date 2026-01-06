@@ -141,7 +141,7 @@ Ensure code adheres to Singularity Nexus level: Quantum security, AI evolution, 
 ## Support
 
 - Issues: [GitHub Issues](https://github.com/KOSASIH/stellar-pi-coin-sdk/issues)
-- Docs: See `docs/`com/KOS
+- Docs: See `docs/`
 
 ---
 
