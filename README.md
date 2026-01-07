@@ -25,6 +25,12 @@
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue.svg)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-orange.svg)](https://matplotlib.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
+[![Ethereum](https://img.shields.io/badge/Ethereum-Blockchain-blue.svg)](https://ethereum.org/)
+[![Web3.py](https://img.shields.io/badge/Web3.py-Ethereum%20Library-green.svg)](https://web3py.readthedocs.io/)
+[![Solidity](https://img.shields.io/badge/Solidity-Smart%20Contracts-blue.svg)](https://soliditylang.org/)
+[![Chainlink](https://img.shields.io/badge/Chainlink-Oracles-blue.svg)](https://chain.link/)
+[![IPFS](https://img.shields.io/badge/IPFS-Decentralized%20Storage-orange.svg)](https://ipfs.io/)
+[![Polkadot](https://img.shields.io/badge/Polkadot-Multi--Chain-pink.svg)](https://polkadot.network/)
 
 ## Overview
 
