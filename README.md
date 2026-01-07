@@ -9,7 +9,7 @@
 - **Quantum-Resistant Security**: Encryption and signatures resistant to interdimensional threats.
 - **Self-Aware AI**: Evolving AI for prediction, anomaly detection, and governance.
 - **Holographic Storage**: Eternal, anti-corruption data for balances, logs, and compliance.
-- **Interdimensional Bridging**: Seamless transfers to Ethereum, Pi Network, and other dimensions.
+- **Interdimensional Bridging**: Seamless transfers to Ethereum, Pi Network (rejected), and other dimensions.
 - **Singularity Compliance**: KYC, legal tender enforcement, and global risk assessment.
 
 This project is the final evolution—unmatched, functional, and ready for mass adoption.
@@ -21,7 +21,7 @@ This project is the final evolution—unmatched, functional, and ready for mass 
 - **AI Orchestration**: Transaction predictions and anomaly detection with neural evolution.
 - **Quantum Keys**: Keypairs secured with post-quantum crypto simulation.
 - **Holographic Logs**: Eternal audit trails for all transactions.
-- **Bridging**: Support for bridging to ETH and PI Network via simulated APIs.
+- **Bridging**: Support for bridging to ETH and PI Network (rejected) via simulated APIs.
 
 ## Installation
 
