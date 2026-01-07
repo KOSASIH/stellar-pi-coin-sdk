@@ -17,6 +17,9 @@
 [![PyPI](https://img.shields.io/badge/PyPI-Package%20Index-blue.svg)](https://pypi.org/)
 [![Crates.io](https://img.shields.io/badge/Crates.io-Rust%20Registry-orange.svg)](https://crates.io/)
 [![Docker](https://img.shields.io/badge/Docker-Containerization-blue.svg)](https://www.docker.com/)
+[![Security](https://img.shields.io/badge/Security-Quantum%20Resistant-green.svg)](https://en.wikipedia.org/wiki/Post-quantum_cryptography)
+[![Compliance](https://img.shields.io/badge/Compliance-KYC%20AML-blue.svg)](https://www.fatf-gafi.org/)
+[![Audit](https://img.shields.io/badge/Audit-Pending-orange.svg)](https://www.openzeppelin.com/)
 
 ## Overview
 
