@@ -13,6 +13,10 @@
 [![aiohttp](https://img.shields.io/badge/aiohttp-Async%20HTTP-green.svg)](https://aiohttp.readthedocs.io/)
 [![Click](https://img.shields.io/badge/Click-CLI%20Framework-blue.svg)](https://click.palletsprojects.com/)
 [![Pytest](https://img.shields.io/badge/Pytest-Testing%20Framework-red.svg)](https://pytest.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)](https://github.com/)
+[![PyPI](https://img.shields.io/badge/PyPI-Package%20Index-blue.svg)](https://pypi.org/)
+[![Crates.io](https://img.shields.io/badge/Crates.io-Rust%20Registry-orange.svg)](https://crates.io/)
+[![Docker](https://img.shields.io/badge/Docker-Containerization-blue.svg)](https://www.docker.com/)
 
 ## Overview
 
