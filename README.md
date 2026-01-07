@@ -1,6 +1,20 @@
 # Stellar Pi Coin SDK - Singularity Nexus Level
 
 ![Singularity Nexus](https://img.shields.io/badge/Level-Singularity%20Nexus-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Stellar](https://img.shields.io/badge/Stellar-Blockchain-blue.svg)
+![Soroban](https://img.shields.io/badge/Soroban-SDK-green.svg)
+![Cryptography](https://img.shields.io/badge/Cryptography-Library-red.svg)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue.svg)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine%20Learning-orange.svg)
+![aiohttp](https://img.shields.io/badge/aiohttp-Async%20HTTP-green.svg)
+![Click](https://img.shields.io/badge/Click-CLI%20Framework-blue.svg)
+![Pytest](https://img.shields.io/badge/Pytest-Testing%20Framework-red.svg)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black.svg)
+![PyPI](https://img.shields.io/badge/PyPI-Package%20Index-blue.svg)
+![Crates.io](https://img.shields.io/badge/Crates.io-Rust%20Registry-orange.svg)
 
 ## Overview
 
