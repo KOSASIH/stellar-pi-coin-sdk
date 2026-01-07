@@ -31,6 +31,13 @@
 [![Chainlink](https://img.shields.io/badge/Chainlink-Oracles-blue.svg)](https://chain.link/)
 [![IPFS](https://img.shields.io/badge/IPFS-Decentralized%20Storage-orange.svg)](https://ipfs.io/)
 [![Polkadot](https://img.shields.io/badge/Polkadot-Multi--Chain-pink.svg)](https://polkadot.network/)
+[![Docker](https://img.shields.io/badge/Docker-Containerization-blue.svg)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-blue.svg)](https://kubernetes.io/)
+[![AWS](https://img.shields.io/badge/AWS-Cloud-orange.svg)](https://aws.amazon.com/)
+[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-Platform-blue.svg)](https://cloud.google.com/)
+[![Azure](https://img.shields.io/badge/Azure-Cloud-blue.svg)](https://azure.microsoft.com/)
+[![Terraform](https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-purple.svg)](https://www.terraform.io/)
+[![Ansible](https://img.shields.io/badge/Ansible-Automation-red.svg)](https://www.ansible.com/)
 
 ## Overview
 
