@@ -44,6 +44,12 @@
 [![Quantstamp](https://img.shields.io/badge/Quantstamp-Audits-blue.svg)](https://quantstamp.com/)
 [![Snyk](https://img.shields.io/badge/Snyk-Vulnerability%20Scanning-green.svg)](https://snyk.io/)
 [![CodeQL](https://img.shields.io/badge/CodeQL-Code%20Scanning-blue.svg)](https://codeql.github.com/)
+[![Codecov](https://img.shields.io/codecov/c/github/KOSASIH/stellar-pi-coin-sdk)](https://codecov.io/gh/KOSASIH/stellar-pi-coin-sdk)
+[![Codacy](https://img.shields.io/codacy/grade/1234567890abcdef)](https://www.codacy.com/gh/KOSASIH/stellar-pi-coin-sdk/dashboard)
+[![SonarQube](https://img.shields.io/badge/SonarQube-Code%20Quality-green.svg)](https://www.sonarsource.com/products/sonarqube/)
+[![Black](https://img.shields.io/badge/Black-Code%20Formatter-black.svg)](https://black.readthedocs.io/)
+[![Flake8](https://img.shields.io/badge/Flake8-Linting-green.svg)](https://flake8.pycqa.org/)
+[![MyPy](https://img.shields.io/badge/MyPy-Type%20Checking-blue.svg)](https://mypy-lang.org/)
 
 ## Overview
 
