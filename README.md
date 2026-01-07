@@ -50,6 +50,12 @@
 [![Black](https://img.shields.io/badge/Black-Code%20Formatter-black.svg)](https://black.readthedocs.io/)
 [![Flake8](https://img.shields.io/badge/Flake8-Linting-green.svg)](https://flake8.pycqa.org/)
 [![MyPy](https://img.shields.io/badge/MyPy-Type%20Checking-blue.svg)](https://mypy-lang.org/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-IDE-blue.svg)](https://code.visualstudio.com/)
+[![Git](https://img.shields.io/badge/Git-Version%20Control-orange.svg)](https://git-scm.com/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Hosting-green.svg)](https://pages.github.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployment-black.svg)](https://vercel.com/)
+[![Netlify](https://img.shields.io/badge/Netlify-Hosting-blue.svg)](https://www.netlify.com/)
+[![Postman](https://img.shields.io/badge/Postman-API%20Testing-orange.svg)](https://www.postman.com/)
 
 ## Overview
 
