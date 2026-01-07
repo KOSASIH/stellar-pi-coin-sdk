@@ -38,6 +38,12 @@
 [![Azure](https://img.shields.io/badge/Azure-Cloud-blue.svg)](https://azure.microsoft.com/)
 [![Terraform](https://img.shields.io/badge/Terraform-Infrastructure%20as%20Code-purple.svg)](https://www.terraform.io/)
 [![Ansible](https://img.shields.io/badge/Ansible-Automation-red.svg)](https://www.ansible.com/)
+[![OWASP](https://img.shields.io/badge/OWASP-Security%20Standards-red.svg)](https://owasp.org/)
+[![OpenZeppelin](https://img.shields.io/badge/OpenZeppelin-Smart%20Contract%20Audits-blue.svg)](https://www.openzeppelin.com/)
+[![Certik](https://img.shields.io/badge/Certik-Blockchain%20Security-green.svg)](https://www.certik.com/)
+[![Quantstamp](https://img.shields.io/badge/Quantstamp-Audits-blue.svg)](https://quantstamp.com/)
+[![Snyk](https://img.shields.io/badge/Snyk-Vulnerability%20Scanning-green.svg)](https://snyk.io/)
+[![CodeQL](https://img.shields.io/badge/CodeQL-Code%20Scanning-blue.svg)](https://codeql.github.com/)
 
 ## Overview
 
