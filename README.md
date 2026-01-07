@@ -20,6 +20,11 @@
 [![Security](https://img.shields.io/badge/Security-Quantum%20Resistant-green.svg)](https://en.wikipedia.org/wiki/Post-quantum_cryptography)
 [![Compliance](https://img.shields.io/badge/Compliance-KYC%20AML-blue.svg)](https://www.fatf-gafi.org/)
 [![Audit](https://img.shields.io/badge/Audit-Pending-orange.svg)](https://www.openzeppelin.com/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-ML%20Framework-orange.svg)](https://www.tensorflow.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red.svg)](https://pytorch.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue.svg)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Data%20Visualization-orange.svg)](https://matplotlib.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebooks-orange.svg)](https://jupyter.org/)
 
 ## Overview
 
