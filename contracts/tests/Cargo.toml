@@ -1,0 +1,13 @@
+[package]
+name = "tests"
+version = "0.1.0"
+edition = "2026"
+
+[dependencies]
+soroban-sdk = { version = "0.9.0", features = ["testutils"] }
+rand = "0.8"
+security = { path = "../security" }
+governance = { path = "../governance" }
+
+[lib]
+crate-type = ["cdylib"]
