@@ -1,0 +1,13 @@
+[package]
+name = "utils"
+version = "0.1.0"
+edition = "2026"
+
+[dependencies]
+soroban-sdk = { version = "0.9.0", features = ["testutils"] }
+rand = "0.8"
+stellar-pi-coin-sdk = { path = ".." }  # Link to main project
+
+[[bin]]
+name = "benchmark"
+path = "benchmark.rs"
