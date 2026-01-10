@@ -1,0 +1,13 @@
+[package]
+name = "examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soroban-sdk = { version = "0.9.0", features = ["testutils"] }
+rand = "0.8"
+stellar-pi-coin-sdk = { path = ".." }
+
+[[bin]]
+name = "usage_example"
+path = "usage_example.rs"
