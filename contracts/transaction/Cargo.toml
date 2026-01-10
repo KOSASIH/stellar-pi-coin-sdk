@@ -1,0 +1,14 @@
+[package]
+name = "transaction"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+soroban-sdk = "0.9.0"
+rsa = "0.9"
+sha3 = "0.10"
+security = { path = "../security" }
+verification = { path = "../verification" }
+
+[lib]
+crate-type = ["cdylib"]
