@@ -1,7 +1,6 @@
-// contracts/transaction/src/lib.rs
 #![no_std]
 
-use soroban_sdk::{contract, contractimpl, contracttype, Env, Address, Symbol, Vec, BytesN, Map, contractcall};
+use soroban_sdk::{contract, contractimpl, contracttype, Env, Address, Symbol, Vec, BytesN, Map, Val};
 use rsa::{PublicKey, RsaPrivateKey, PaddingScheme};
 use sha3::{Digest, Sha3_512};
 
@@ -42,9 +41,9 @@ impl TransactionContract {
         let nodes = Vec::from_array(&env, [Address::generate(&env), Address::generate(&env), Address::generate(&env)]);
         env.storage().persistent().set(&DataKey::ConsensusNodes, &nodes);
         
-        // Quantum RSA key
-        let mut rng = env.prng();
-        let private_key = RsaPrivateKey::new(&mut rng, 2048).expect("Failed to generate key");
+        // Quantum RSA key (placeholder; real quantum crypto not in Soroban yet)
+        // Note: RSA not natively in Soroban; this is simulated
+        let private_key = RsaPrivateKey::new(&mut env.prng(), 2048).expect("Failed to generate key");
         let public_key = private_key.to_public_key();
         env.storage().persistent().set(&DataKey::QuantumKey, &(private_key, public_key));
         
@@ -57,7 +56,7 @@ impl TransactionContract {
     pub fn process_transaction(env: Env, sender: Address, receiver: Address, amount: u64, source: Symbol) -> Transaction {
         sender.require_auth();
         
-        let tx_id = env.crypto().sha256(&env, &Bytes::from_slice(&env, &format!("{}-{}-{}", sender, receiver, amount).as_bytes()));
+        let tx_id = env.crypto().sha256(&vec![Val::Address(sender.clone()), Val::Address(receiver.clone()), Val::U64(amount)]);
         let mut tx = Transaction {
             id: tx_id.clone(),
             sender: sender.clone(),
@@ -75,8 +74,9 @@ impl TransactionContract {
         
         // Verify origin via Verification contract
         let verification_contract: Address = env.storage().persistent().get(&Symbol::new(&env, "verification_contract")).unwrap();
-        let result = contractcall!(env, verification_contract, verify_origin, source.clone(), tx_id.clone(), amount, 1u32);
-        if !result.is_valid {
+        let verify_args = vec![Val::Symbol(source.clone()), Val::BytesN(tx_id.clone()), Val::U64(amount), Val::U32(1)];
+        let result: bool = env.invoke_contract(&verification_contract, &Symbol::new(&env, "verify_origin"), verify_args).unwrap();
+        if !result {
             tx.status = Symbol::new(&env, "failed");
             return tx;
         }
@@ -91,7 +91,8 @@ impl TransactionContract {
         
         // Transfer via Pi Coin contract
         let pi_coin_contract: Address = env.storage().persistent().get(&Symbol::new(&env, "pi_coin_contract")).unwrap();
-        contractcall!(env, pi_coin_contract, transfer, sender, receiver, amount, tx_id.clone());
+        let transfer_args = vec![Val::Address(sender), Val::Address(receiver), Val::U64(amount), Val::BytesN(tx_id.clone())];
+        env.invoke_contract(&pi_coin_contract, &Symbol::new(&env, "transfer"), transfer_args);
         
         tx.status = Symbol::new(&env, "completed");
         
@@ -143,4 +144,4 @@ impl TransactionContract {
         let signature = private_key.sign(PaddingScheme::new_pkcs1v15_sign::<Sha3_512>(), &hash).expect("Signing failed");
         public_key.verify(PaddingScheme::new_pkcs1v15_verify::<Sha3_512>(), &hash, &signature).is_ok()
     }
-}
+                                           }
