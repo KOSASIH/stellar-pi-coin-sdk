@@ -9,6 +9,10 @@ members = [
     "cmd/crates/soroban-test/tests/fixtures/hello",
     "cmd/crates/soroban-test/tests/fixtures/bye",
     # Pi Coin Hyper-Tech Additions
+    "contracts/pi_coin",
+    "contracts/ecosystem/*",
+    "contracts/stablecoin/*",
+    "src",
     "pi_coin_contract",
     "pi_coin_oracle",
     "pi_coin_governance",
@@ -26,7 +30,8 @@ default-members = [
     "cmd/crates/soroban-spec-tools",
     "cmd/crates/soroban-test",
     # Pi Coin Default
-    "pi_coin_contract",
+    "contracts/pi_coin",
+    "src",
     "scripts/pi_coin_ultimate_enforcer",
 ]
 exclude = [
@@ -38,6 +43,14 @@ exclude = [
 [workspace.package]
 version = "23.4.0-pi-coin-1.0.0"  # Upgraded for Pi Coin
 rust-version = "1.89.0"
+edition = "2021"
+authors = ["KOSASIH"]
+description = "Hyper-tech Stablecoin SDK for Pi Coin on Stellar with GodHead Nexus AI"
+license = "MIT"
+repository = "https://github.com/KOSASIH/stellar-pi-coin-sdk"
+homepage = "https://github.com/KOSASIH/stellar-pi-coin-sdk"
+keywords = ["stablecoin", "blockchain", "stellar", "soroban", "ai", "pi-coin"]
+categories = ["cryptography", "finance"]
 
 # Dependencies located in this repo:
 [workspace.dependencies.soroban-cli]
@@ -175,3 +188,14 @@ inherits = "dev"
 opt-level = 0
 debug = true
 overflow-checks = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "contract"
+path = "src/lib.rs"
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
